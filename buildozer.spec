@@ -5,7 +5,7 @@ package.domain = org.example
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
-requirements = python3,kivy==2.3.0
+requirements = python3==3.11.9,kivy==2.3.0
 orientation = landscape
 fullscreen = 1
 
@@ -15,7 +15,7 @@ android.permissions =
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 android.accept_sdk_license = True
 
 [buildozer]
